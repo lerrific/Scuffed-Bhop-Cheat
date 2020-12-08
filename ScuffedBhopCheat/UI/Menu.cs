@@ -74,7 +74,7 @@ namespace ScuffedBhopCheat.UI
                     GUILayout.Label("insert = toggle menu", new GUILayoutOption[0]);
                     GUILayout.Label("delete = eject dll", new GUILayoutOption[0]);
 
-                    Utils.Settings.watermark = GUILayout.Toggle(Utils.Settings.watermark, "draw watermark", new GUILayoutOption[0]);
+                    //Utils.Settings.watermark = GUILayout.Toggle(Utils.Settings.watermark, "draw watermark", new GUILayoutOption[0]);
                     GUILayout.Label("xSensitivity: " + Utils.Settings.xSensitivity, new GUILayoutOption[0]);
                     Utils.Settings.xSensitivity = GUILayout.HorizontalSlider(Utils.Settings.xSensitivity, 1.0f, 256.0f, new GUILayoutOption[0]);
                     GUILayout.Label("ySensitivity: " + Utils.Settings.ySensitivity , new GUILayoutOption[0]);
